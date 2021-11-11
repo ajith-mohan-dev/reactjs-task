@@ -1,0 +1,58 @@
+.container{
+   display: flex;
+  justify-content: space-between;
+  padding: 40px;
+ 
+}
+
+.subContainer{
+    padding: 20px;
+}
+
+.block1{
+    border: 1px solid grey;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.content{
+    background-color: grey;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+
+.block2{
+    border: 1px solid grey;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+h2, p{
+    color:black;
+    padding: 5px;
+}
+
+.buttonContainer{
+   align-items: center;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+.button{
+    background-color: blueviolet;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border-color: blueviolet;
+}
+
+.groupContainer{
+    position: absolute;
+    top: 30px;
+    
+}
